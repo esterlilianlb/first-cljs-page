@@ -19,8 +19,8 @@
    [:p "Este é um exemplo de componente usando estado:"]
    [click-counter click-count]
    [:h1 "aqui tenho umformulário simples"]
-   [:form
-   [:p "Meu formulário"]
-   [:input {:type "text" :placeholder "seu nome aqui"}]
-   [:input {:type "submit" :value "Enviar" :class "button"}]
+    [:form
+      [:p "Meu formulário"]
+      [:input {:type "text" :placeholder "seu nome aqui"}]
+      [:input {:type "submit" :value "Enviar" :class "button"}]
    ]])
